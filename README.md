@@ -2,6 +2,7 @@ Repository for GitHub composite action that pushes Docker image to ECR
 
 The following custom action is used for building, tagging and pushing images to ECR.
 It takes 5 required inputs: 
+
   image-name: The name of the docker image
   tag: The tag name for the image
   aws-region: The AWS region name in ID format e.g eu-west-1
